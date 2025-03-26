@@ -46,7 +46,6 @@ export default function Login() {
                 password
               })
               .then(() => {
-                alert('cal');
                 router.push('/me');
               })
               .catch(e => {

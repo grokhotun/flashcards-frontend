@@ -14,7 +14,6 @@ export const useCards = () => {
       cards
         .all()
         .then(response => {
-          console.log(response.data);
           return response.data;
         })
         .catch(e => {

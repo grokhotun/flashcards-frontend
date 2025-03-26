@@ -10,9 +10,7 @@ export default function Register() {
   const [password, setPassword] = React.useState('');
 
   const register = () => {
-    auth.register({ email, password }).then(profile => {
-      console.log('profile', profile);
-    });
+    auth.register({ email, password });
   };
 
   return (
